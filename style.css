@@ -27,13 +27,19 @@ header { margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bo
 .site-subtitle { display: block; font-size: 0.85rem; color: var(--muted); margin-top: 0.2rem; }
 
 /* Date groups */
-.date-header { font-size: 1rem; font-weight: 600; color: var(--muted); margin: 2rem 0 0.5rem; border-bottom: 1px solid var(--border); padding-bottom: 0.3rem; }
-.reflection-link { margin-bottom: 1rem; }
-.reflection-link a { font-size: 0.85rem; color: var(--accent); }
+.date-header { font-size: 1.3rem; font-weight: 700; color: var(--text); margin: 2.5rem 0 1rem; border-bottom: 2px solid var(--border); padding-bottom: 0.4rem; }
+
+/* Reflection card (index page) */
+.reflection-card { margin-bottom: 2rem; padding: 1.2rem; background: var(--verse-bg); border-radius: 4px; }
+.reflection-card h3 { font-size: 0.9rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); margin-bottom: 0.8rem; }
+.reflection-card p { font-size: 0.9rem; line-height: 1.6; margin-bottom: 0.8rem; }
+.reflection-card .preoccupations { margin: 0.8rem 0 0.8rem 1.2rem; font-size: 0.85rem; }
+.reflection-card .preoccupations li { margin-bottom: 0.3rem; }
 
 /* Entry summaries (index page) */
 .entry-summary { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border); }
 .entry-summary:last-child { border-bottom: none; }
+.entry-title { font-family: Georgia, "Times New Roman", serif; font-size: 1.05rem; font-weight: 600; color: var(--text); margin-bottom: 0.6rem; }
 
 /* Stimulus */
 blockquote {
